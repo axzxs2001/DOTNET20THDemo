@@ -11,13 +11,17 @@
   "profiles": {
     "WebAPI02": {
       "commandName": "Project",
-      "launchBrowser": false,
       "launchUrl": "test",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:5199",
       "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/test",
+      "publishAllPorts": true
     }
   }
 }
