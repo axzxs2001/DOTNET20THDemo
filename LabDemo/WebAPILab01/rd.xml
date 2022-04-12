@@ -1,0 +1,13 @@
+﻿<Directives>
+	<Application>
+		<Assembly Name="System.Linq" Dynamic="Required All">
+			<Type Name="System.Linq.Enumerable" Dynamic="Required All">
+				<Method Name="ToArray" Dynamic="Required">
+					<GenericArgument Name="System.Int32,System.Private.CoreLib" />
+				</Method>
+			</Type>
+		</Assembly>
+		<Assembly Name="System.Text.Json" Dynamic="Required All">	
+		</Assembly>
+	</Application>
+</Directives>

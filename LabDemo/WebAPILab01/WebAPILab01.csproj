@@ -1,13 +1,16 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<IlcOptimizationPreference>Speed</IlcOptimizationPreference>
-		<IlcGenerateStackTraceData>false</IlcGenerateStackTraceData>	
+		<IlcGenerateStackTraceData>false</IlcGenerateStackTraceData>
+		<InvariantGlobalization>true</InvariantGlobalization>
 	</PropertyGroup>
 	<ItemGroup>
+		<RdXmlFile Include="rd.xml" />
+		<RuntimeHostConfigurationOption Include="Switch.System.Reflection.Assembly.SimulatedCallingAssembly" Value="true" />
 		<PackageReference Include="Microsoft.DotNet.ILCompiler" Version="7.0.0-preview.2.22152.2" />
 	</ItemGroup>
 

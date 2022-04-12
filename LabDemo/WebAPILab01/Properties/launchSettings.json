@@ -1,27 +1,23 @@
-{
+﻿{
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:43991",
+      "applicationUrl": "http://localhost:6806",
       "sslPort": 0
     }
   },
   "profiles": {
-    "WebAPI02": {
+    "WebAPILab01": {
       "commandName": "Project",
-      "launchUrl": "test",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "applicationUrl": "http://localhost:5011",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:5199",
-      "dotnetRunMessages": true
-    },
-    "Docker": {
-      "commandName": "Docker",
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/test",
-      "publishAllPorts": true
+      }
     }
   }
 }
