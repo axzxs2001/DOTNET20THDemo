@@ -12,25 +12,17 @@
     "DockerDemo01": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "getfile",
+      "launchUrl": "test",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:5083",
       "dotnetRunMessages": true
-    },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "getfile",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
+    },  
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": false,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/getfile",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/test",
       "publishAllPorts": true
     }
   }
